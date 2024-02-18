@@ -15,7 +15,7 @@ const app = express();
 
 app.use(express.json());
 
-const port = 4000;
+const port = 2000;
 
 app.use('/api/usuarios', usuarios);
 app.use('/api/plantas', planta);
