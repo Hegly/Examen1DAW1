@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const pgp = pg();
 
-const user = process.env.USER;
+const user = process.env.USER_;
 const pass = process.env.PASS;
 const dataBase = process.env.DB;
 const host = process.env.HOST;
